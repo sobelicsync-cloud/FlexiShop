@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexiShop | Catálogo Oscuro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">FLEXISHOP</div>
+        <input type="text" id="buscador" placeholder="Buscar vapes, gorras, zapatos, lociones...">
+    </header>
+
+    <main class="catalogo" id="catalogo">
+        
+        <div class="producto" data-categoria="vape electronico humo">
+            <div class="carrusel">
+                <img src="https://via.placeholder.com/300x300/1a1a1a/bb86fc?text=Vape+Frente" alt="Vape 1">
+                <img src="https://via.placeholder.com/300x300/1a1a1a/03dac6?text=Vape+Lado" alt="Vape 2">
+            </div>
+            <h3>Vape Pro 5000 Puffs</h3>
+            <p class="precio">$25.00</p>
+            <select class="selector-variante">
+                <option value="">Elige un sabor...</option>
+                <option value="menta">Cool Mint</option>
+                <option value="mango">Mango Ice</option>
+                <option value="sandia">Watermelon</option>
+            </select>
+            <button class="btn-comprar">Agregar al carrito</button>
+        </div>
+
+        <div class="producto" data-categoria="ropa gorra sombrero">
+            <div class="carrusel">
+                <img src="https://via.placeholder.com/300x300/1a1a1a/bb86fc?text=Gorra+Negra" alt="Gorra 1">
+                <img src="https://via.placeholder.com/300x300/1a1a1a/03dac6?text=Gorra+Blanca" alt="Gorra 2">
+            </div>
+            <h3>Gorra Urbana Flex</h3>
+            <p class="precio">$15.00</p>
+            <select class="selector-variante">
+                <option value="">Elige un color...</option>
+                <option value="negro">Negro Mate</option>
+                <option value="blanco">Blanco Nieve</option>
+            </select>
+            <button class="btn-comprar">Agregar al carrito</button>
+        </div>
+
+        <div class="producto" data-categoria="zapatos tenis calzado">
+            <div class="carrusel">
+                <img src="https://via.placeholder.com/300x300/1a1a1a/bb86fc?text=Zapatos+Deportivos" alt="Zapatos">
+            </div>
+            <h3>Sneakers NightRun</h3>
+            <p class="precio">$85.00</p>
+            <select class="selector-variante">
+                <option value="">Elige tu talla...</option>
+                <option value="40">Talla 40</option>
+                <option value="41">Talla 41</option>
+                <option value="42">Talla 42</option>
+            </select>
+            <button class="btn-comprar">Agregar al carrito</button>
+        </div>
+
+        <div class="producto" data-categoria="lociones perfume aroma">
+            <div class="carrusel">
+                <img src="https://via.placeholder.com/300x300/1a1a1a/bb86fc?text=Locion+Dark" alt="Loción">
+            </div>
+            <h3>Loción Dark Essence</h3>
+            <p class="precio">$40.00</p>
+            <button class="btn-comprar" style="margin-top: 36px;">Agregar al carrito</button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
